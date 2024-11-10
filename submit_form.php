@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!empty($full_name) && !empty($email) && !empty($phone) && !empty($message)) {
         // Database connection
         $servername = "localhost";
-        $username = "root"; // default username for XAMPP
+        $username = "root"; 
         $password = ""; // default password for XAMPP
         $dbname = "Mantra_submit"; // Updated database name
 
